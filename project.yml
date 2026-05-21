@@ -1,0 +1,42 @@
+name: SingCoach
+options:
+  bundleIdPrefix: com.gerardrecinto
+  deploymentTarget:
+    iOS: "16.0"
+  createIntermediateGroups: true
+
+targets:
+  SingCoach:
+    type: application
+    platform: iOS
+    sources:
+      - path: Sources
+    info:
+      path: SupportingFiles/Info.plist
+      properties:
+        CFBundleDisplayName: SingCoach
+        CFBundleShortVersionString: "$(MARKETING_VERSION)"
+        CFBundleVersion: "$(CURRENT_PROJECT_VERSION)"
+        UILaunchScreen: {}
+        UISupportedInterfaceOrientations~iphone:
+          - UIInterfaceOrientationPortrait
+        NSMicrophoneUsageDescription: "SingCoach records your voice to analyze pitch, dynamics, and tone."
+        NSCameraUsageDescription: "SingCoach records video while you sing."
+        NSPhotoLibraryUsageDescription: "SingCoach can import recordings from your photo library."
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.gerardrecinto.singcoach
+        SWIFT_VERSION: "5.9"
+        MARKETING_VERSION: "1.0"
+        CURRENT_PROJECT_VERSION: "1"
+        ENABLE_PREVIEWS: "YES"
+
+schemes:
+  SingCoach:
+    build:
+      targets:
+        SingCoach: all
+    run:
+      config: Debug
+    archive:
+      config: Release
