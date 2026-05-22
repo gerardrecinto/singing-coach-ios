@@ -1,5 +1,13 @@
 # SingCoach
 
+![iOS 16+](https://img.shields.io/badge/iOS-16%2B-000000?logo=apple&logoColor=white)
+![Swift 5.9](https://img.shields.io/badge/Swift-5.9-F05138?logo=swift&logoColor=white)
+![Xcode 15](https://img.shields.io/badge/Xcode-15-1575F9?logo=xcode&logoColor=white)
+![Claude](https://img.shields.io/badge/Claude-claude--sonnet--4--6-blueviolet)
+![License: MIT](https://img.shields.io/badge/License-MIT-22c55e)
+
+![Demo](docs/assets/demo.gif)
+
 iOS vocal coaching app. Records a singing clip, runs on-device pitch and dynamics analysis, then sends the results to Claude for structured feedback — what's working, what to fix, and a 0–100 score.
 
 ## How it works
