@@ -1,5 +1,7 @@
 # SingCoach
 
+![SingCoach iOS logo](docs/assets/logo.svg)
+
 ![iOS 16+](https://img.shields.io/badge/iOS-16%2B-000000?logo=apple&logoColor=white)
 ![Swift 5.9](https://img.shields.io/badge/Swift-5.9-F05138?logo=swift&logoColor=white)
 ![Xcode 15](https://img.shields.io/badge/Xcode-15-1575F9?logo=xcode&logoColor=white)
@@ -69,6 +71,12 @@ open SingCoach.xcodeproj
 ```
 
 In the app, tap the gear icon and paste your `sk-ant-...` key. It is stored in `UserDefaults` on-device and sent only to `api.anthropic.com`.
+
+## Product Direction
+
+This can become a freemium iOS vocal coaching app: free quick analysis, Pro session history and practice plans, and Coach Mode for teachers managing student progress.
+
+See [docs/go-to-market.md](docs/go-to-market.md).
 
 ## Project Layout
 

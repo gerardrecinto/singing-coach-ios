@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="260" viewBox="0 0 960 260" role="img" aria-labelledby="title desc">
+  <title id="title">SingCoach iOS logo</title>
+  <desc id="desc">On-device iOS vocal coaching with AI feedback.</desc>
+  <rect width="960" height="260" rx="28" fill="#0b1020"/>
+  <g fill="none" stroke="#fb7185" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="96" y="54" width="150" height="168" rx="32"/>
+    <circle cx="171" cy="178" r="14"/>
+    <path d="M298 150c32-76 64-76 96 0s64 76 96 0"/>
+    <path d="M298 190h194"/>
+  </g>
+  <text x="540" y="118" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="48" font-weight="800">SingCoach iOS</text>
+  <text x="543" y="160" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="22">On-device pitch analysis plus AI coaching</text>
+</svg>
